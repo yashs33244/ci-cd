@@ -16,5 +16,9 @@ export const SidebarItem = ({ href, title, icon }: { href: string; title: string
         <div className={`font-bold ${selected ? "text-[#6a51a6]" : "text-slate-500"}`}>
             {title}
         </div>
+
+        
     </div>
+
+
 }
